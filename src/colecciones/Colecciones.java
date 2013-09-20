@@ -27,5 +27,13 @@ public class Colecciones {
         Coche coche3= new Coche(Marca.CITROEN,"Xantia",324,"23456712D");
         Coche coche4= new Coche(Marca.RENAULT,"21",123,"21456723D");
         Coche coche5= new Coche(Marca.SEAT,"Ibiza",160,"45678923T");
+        
+        mapCoches.put(coche1.getDniPropietario(),coche1);
+        
+        Coche cocheBuscado=mapCoches.get("Fiesta");
+        System.out.println(cocheBuscado.getMarca());
+        
+        
     }
+    
 }
