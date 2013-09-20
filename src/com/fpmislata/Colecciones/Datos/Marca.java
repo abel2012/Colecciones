@@ -9,8 +9,8 @@ package com.fpmislata.Colecciones.Datos;
  * @author alumno
  */
 public enum Marca {
-    Seat, 
-    Renault,
-    Ford,
-    Citroen
+    SEAT, 
+    RENAULT,
+    FORD,
+    CITROEN
 }
