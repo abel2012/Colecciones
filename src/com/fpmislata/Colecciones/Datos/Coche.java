@@ -13,17 +13,17 @@ public class Coche {
     private Marca marca;
     private String modelo;
     private int cilindrada;
-    private String dniPropietario;
+    private Persona propietario;
     
     
     public Coche(){}
     
-    public Coche(Marca marca,String modelo,int cilindrada,String dniPropietario){
+    public Coche(Marca marca,String modelo,int cilindrada){
     
         this.marca=marca;
         this.modelo=modelo;
         this.cilindrada=cilindrada;
-        this.dniPropietario=dniPropietario;
+        
     
     }
 
@@ -72,15 +72,20 @@ public class Coche {
     /**
      * @return the dniPropietario
      */
-    public String getDniPropietario() {
-        return dniPropietario;
+    
+
+    /**
+     * @return the propietario
+     */
+    public Persona getPropietario() {
+        return propietario;
     }
 
     /**
-     * @param dniPropietario the dniPropietario to set
+     * @param propietario the propietario to set
      */
-    public void setDniPropietario(String dniPropietario) {
-        this.dniPropietario = dniPropietario;
+    public void setPropietario(Persona propietario) {
+        this.propietario = propietario;
     }
     
     
